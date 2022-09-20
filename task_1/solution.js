@@ -4,6 +4,12 @@ function addInCartMessage(title, price) {
 
     // Задание №1.1. Оповещение о добавлении в корзину
 
+    let message;
+    message = productName + 'за';
+    essage = productPrice + 'теперь в корзине!';
+    console.log (message)
+
+   
     // создайте переменную message
     // присвойте переменной message значение переменной productName
     // добавьте в конец переменной message пробел
