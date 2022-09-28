@@ -48,7 +48,7 @@ function addInCartSumChange(sum, delta) {
     // Задание №1.3. Увеличение суммы в корзине
 
     let newSum = sum + delta;
-    let newSumText = '${newSum} ₽';
+    let newSumText = `${newSum} ₽`;
     console.log(newSumText)
 
 
